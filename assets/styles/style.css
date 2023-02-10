@@ -99,4 +99,22 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+}
+.about-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+.about-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
 /* about section style end */
