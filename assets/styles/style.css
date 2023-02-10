@@ -1,4 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Open+Sans&family=Oswald:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;1,500&family=Roboto:ital,wght@0,300;0,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
 *{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
+.primary-button{
+    padding: 10px;
+    background-color:#FD6E0A;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    width:150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* main section */
+.main{
+   max-width: 1140px;
+   margin:0 auto;
+}
+/* headding and navbar style start */
+/* navbar style start */
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../assets/../images/header_bg.png"),url("../assets/../images/developer.png");
+    background-repeat: no-repeat;
+    background-position:bottom right, left;
+}
+.navbar-nav{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding: 50px;
+}
+.navbar-nav h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration:none;
+    color: black;
+    margin: 40px;
+}
+.primary-color-title{
+    color:#FD6E0A;
+}
+/* navbar style rnd */
+/* bannar style start */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.header-sub-title{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+.header-description{
+    font-weight: 400;
+    color: #757575;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+/* bannar style end */
+/* headding and navbar style end */
+/* about section style start */
+.about{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* about section style end */
