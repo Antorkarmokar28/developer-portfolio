@@ -195,3 +195,43 @@
     text-align: center;
 }
 /* resume section style end */
+/* footer start */
+.fotter{
+    max-width: 1140px;
+    margin:0 auto;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px;
+}
+.fotter-container{
+    display: flex;
+    gap: 100px;
+}
+.footer-message input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: 0;
+}
+.footer-contact-title{
+    color: #181818;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-contact-description{
+    color: #474747;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-message-tile{
+    color: #181818;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+/* footer end */
